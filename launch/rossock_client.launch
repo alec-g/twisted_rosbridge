@@ -1,0 +1,4 @@
+<launch>
+  <!--- Launch websocket client -->
+  <node pkg="rossock" type="rossock_client.py" name="rossock_client" output="screen" />
+</launch>
